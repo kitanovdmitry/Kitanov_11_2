@@ -146,7 +146,7 @@ public:
 
     ComplexTrigonometry operator*(const ComplexTrigonometry &res_mul)
     {
-        ComplexTrigonometry temp;
+        ComplexTrigonometry temp = ComplexTrigonometry();
         double phi_val = phi + res_mul.phi;
         double r_val = r * res_mul.r;
 
