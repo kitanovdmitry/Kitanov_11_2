@@ -159,7 +159,7 @@ public:
 
     ComplexTrigonometry operator/(const ComplexTrigonometry &res_div)
     {
-        ComplexTrigonometry temp;
+        ComplexTrigonometry temp = ComplexTrigonometry();
         double phi_val = phi - res_div.phi;
         double r_val = r / res_div.r;
 
